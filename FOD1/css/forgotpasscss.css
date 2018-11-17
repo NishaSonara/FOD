@@ -1,0 +1,98 @@
+.forgotpasstable
+{
+
+margin:40px 420px 0 420px;
+padding:20px 50px 40px 50px;
+border-style:solid;
+border-width:1px;
+}
+.submitbutton
+{
+	background-color:gray;
+	width:90px;
+	height:30px;
+	border:0;
+	border-radius:10px;
+	margin:2px 70px 2px 70px; 
+	font-size:15px;
+	color:white;
+}
+.submitbutton:hover{
+background-color:gray;
+color:cyan;
+
+}
+
+.link
+{
+
+font-size:17px;
+text-decoration:none;
+color:green;
+
+}
+.link:hover,.line:active
+{
+color:red;
+text-decoration:underline;
+
+}
+.textbox
+{
+border-radius:5px;
+}
+.textbox:focus
+{
+background-color:lightblue;
+}
+
+body 
+{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+.textbox
+{
+border-radius:5px;
+}
+.textbox:focus
+{
+background-color:lightblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 350px 0 350px;
+    overflow: hidden;
+   background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:19px;
+}
+
+li a:hover:not(.active) {
+    background-color:lightgrey;
+color:black;
+}
+
+li a:active {
+    background-color: skyblue;
+}

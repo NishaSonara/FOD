@@ -1,0 +1,138 @@
+.link
+{
+padding:0 0 0 90px;
+font-size:17px;
+text-decoration:none;
+color:green;
+
+}
+.link:hover,.line:active
+{
+color:red;
+text-decoration:underline;
+
+}
+.passtable
+{
+margin:30px 400px ;
+padding:0px 50px 20px 50px;
+border-style:solid;
+border-width:1px;
+
+}
+
+.loginbutton
+{
+	background-color:skyblue;
+	width:90px;
+	height:30px;	
+	border-radius:10px;
+	margin:1px 70px 2px 70px;
+padding-top:2px;	
+	font-size:15px;
+	
+}
+.loginbutton:hover{
+
+background-color:lightblue;
+}
+.updatetable
+{
+margin:30px 480px 0 480px;
+padding:0px 50px 20px 50px;
+border-style:solid;
+border-width:1px;
+
+}
+.deletetable{
+margin:30px 480px 0 480px ;
+width:300px;
+padding:0 0px 20px 30px;
+border-style:solid;
+border-width:1px;
+}
+.deletebutton{
+background-color:skyblue;
+	width:160px;
+	height:30px;
+	
+	border-radius:10px;
+	margin:1px 70px 2px 70px;
+padding-top:2px;	
+	font-size:15px;
+	
+}
+.deletebutton:hover{
+background-color:lightblue;
+
+
+}
+
+.surebutton{
+background-color:gray;
+	width:70px;
+	height:30px;
+	border:0;
+	border-radius:10px;
+	margin:1px 0 2px 10px;
+padding-top:2px;	
+	font-size:15px;
+	color:white;
+}
+.surebutton:hover{
+background-color:gray;
+color:cyan;
+
+}
+
+
+body 
+{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+.textbox
+{
+border-radius:5px;
+}
+.textbox:focus
+{
+background-color:lightblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 350px 0 350px;
+    overflow: hidden;
+   background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:19px;
+}
+
+li a:hover:not(.active) {
+    background-color:lightgrey;
+color:black;
+}
+
+li a:active {
+    background-color: skyblue;
+}

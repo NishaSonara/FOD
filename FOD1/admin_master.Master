@@ -1,0 +1,38 @@
+﻿<%@ master Language="C#" AutoEventWireup="true" CodeBehind="admin_master.master.cs" Inherits="food_ordering_system.admin_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    <link rel="stylesheet" type="text/css" href="/css/mastercss.css" />
+        </asp:ContentPlaceHolder>
+</head>
+<body >
+  
+        <form runat="server">
+        <ul>                                          
+            <li><a href="../admin/admin_item.aspx">Product</a></li>
+            
+            <li><a href="../admin/admin_order.aspx">View Order </a></li>
+
+            <li><a href="../admin/admin_cust.aspx">Customer </a></li>
+
+            <li><a href="../admin/admin_payment.aspx">Payment</a></li>
+
+            <li><a href="../admin/admin_employee.aspx">Employee</a></li>
+
+            <li><a href="../admin/admin_feedback.aspx">Feedback</a></li>
+            <li><a href="../admin/admin_logout.aspx">Logout</a></li>
+            
+        </ul>
+       
+       
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>    
+       
+    
+     </form>    
+        
+</body>
+</html>

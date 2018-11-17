@@ -1,0 +1,214 @@
+<style>
+
+.body{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0 0px 0 0px ;
+    overflow:hidden;
+    position: fixed;
+    top: 0%;
+	left:20%;	
+    width:802px;
+	height:47px;
+	border-style:solid;
+	border-width:1px;	
+	background-color:lightgrey;
+	}
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+	
+	
+}
+
+li a:hover:not(.active) {    
+	 background-color:grey;
+color:white;
+
+}
+h1{
+color:black;
+font-size:200%;
+font-family:'Monotype Corsiva';
+text-align:center; top:0;
+border-style:solid;
+width:802px;
+height:49px;
+margin: 45px 00px 0px 262px;
+padding-top:8px;
+border-width:1px;
+border-color:black;
+left:20%;
+border-top-style:hidden;
+border-bottom-style:hidden;
+}
+
+.box{
+width:802px;
+border-style:solid;
+border-top-style:hidden;
+border-width:1px;
+height:1000px;
+margin:0 0 0 262px;
+}    
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0px 00px 0px 262px;
+	border-top-style:hidden;
+   
+	border-style:solid;
+	border-width:1px;
+	
+	width:802px;
+	height:302px;
+
+}
+
+
+
+-
+/* The dots/bullets/indicators */
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+div.img
+{
+border: 1px solid black;
+}
+div.img:hover {
+    border: 1px solid black;
+	background-color:gray;
+	color:white;
+}
+
+.aspimage {
+    width:100%;
+    height: auto;
+	
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0px 10px;
+	margin:0 50px;
+    float: left;
+    width: 300px;
+}
+.responsivemiddle {
+    padding: 10px 10px;
+	margin:20px 280px;
+    float: left;
+    width: 300px;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .responsivemiddle {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsivemiddle {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.link
+{
+font-size:17px;
+text-decoration:none;
+color:blue;
+
+}
+
+.link:hover,.line:active
+{
+color:red;
+text-decoration:underline;
+}
+
+
+    </style>

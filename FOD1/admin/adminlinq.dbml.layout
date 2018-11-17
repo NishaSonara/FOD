@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.5" name="adminlinq">
+  <DataContextMoniker Name="/adminlinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="865057ec-ec36-4b6d-a840-79a97d6cd03a" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/adminlinqDataContext/admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc93509e-68c5-4677-9f4e-c049dc4fa235" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90f87a62-2aa2-4d9b-a4bb-9492edcb3aed" absoluteBounds="0.75, 1.375, 2, 3.5016097005208331">
+      <DataClassMoniker Name="/adminlinqDataContext/customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0312f624-4d06-4d4f-8cd6-1ee2930b5b29" absoluteBounds="0.765, 1.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4954be29-f1cd-4dfb-aa76-c2175bfd989b" absoluteBounds="0.75, 6.75, 2, 3.5016097005208318">
+      <DataClassMoniker Name="/adminlinqDataContext/employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07461607-1b5a-4d4b-a1f5-d153dfbd7dcf" absoluteBounds="0.765, 7.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1e4ab83-81aa-4435-bf00-53a7693ee7fb" absoluteBounds="3.5, 1, 2, 1.3862939453125">
+      <DataClassMoniker Name="/adminlinqDataContext/feedback" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a85d0aa5-f579-47a5-95d3-0e9b56299e05" absoluteBounds="3.515, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="996da417-6a39-4baa-85eb-e6ae08b0f6b1" absoluteBounds="3.75, 6.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/adminlinqDataContext/item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88100262-ce0e-4f7d-b5df-2a646b7bd1d8" absoluteBounds="3.765, 7.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e3878a0-a203-46fd-bf4b-200b0f3f4177" absoluteBounds="6.25, 3.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/adminlinqDataContext/payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9fb44289-c72e-4fd6-856c-e6e68a1676df" absoluteBounds="6.265, 3.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.88064697265625); (3.5 : 1.88064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/adminlinqDataContext/customer/customer_feedback" />
+      <nodes>
+        <classShapeMoniker Id="90f87a62-2aa2-4d9b-a4bb-9492edcb3aed" />
+        <classShapeMoniker Id="a1e4ab83-81aa-4435-bf00-53a7693ee7fb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="671ced7b-eeb1-428c-98b5-dc1010d06ffe" absoluteBounds="3.875, 3.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/adminlinqDataContext/order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1e27226-466c-4b05-9f0a-5e0924ff674f" absoluteBounds="3.89, 3.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.875 : 4.01044840494792); (6.25 : 4.01044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/adminlinqDataContext/order/order_payment" />
+      <nodes>
+        <classShapeMoniker Id="671ced7b-eeb1-428c-98b5-dc1010d06ffe" />
+        <classShapeMoniker Id="6e3878a0-a203-46fd-bf4b-200b0f3f4177" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.00080485026042); (3.875 : 4.00080485026042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/adminlinqDataContext/customer/customer_order" />
+      <nodes>
+        <classShapeMoniker Id="90f87a62-2aa2-4d9b-a4bb-9492edcb3aed" />
+        <classShapeMoniker Id="671ced7b-eeb1-428c-98b5-dc1010d06ffe" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

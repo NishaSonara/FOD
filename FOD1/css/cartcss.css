@@ -1,0 +1,248 @@
+h2
+{
+border-style:dashed;
+border-left-style:hidden;
+border-right-style:hidden;
+text-align:center;
+border-width:1px;
+font-size:20px;
+width:100%;
+}
+.filter
+{
+float:left;
+font-size:17px;
+}
+.feed
+{
+font-size:17px;
+text-align:center;
+margin:10px 370px;
+}
+.submit
+{
+background-color:skyblue;
+}
+.submit:hover{
+background-color:grey;
+color:white;
+}
+.final
+{
+width:550px;
+font-size:17px;
+text-align:center;
+margin:10px 320px;
+}
+.search
+{
+background-color:skyblue;
+}
+.search:hover
+{
+background-color:lightblue;
+
+}
+.myorder
+{
+margin:10px 550px 0 560px;
+text-align:center;
+}
+.pay{
+margin:0 100px;
+background-color:skyblue;
+color:black;
+font-size:15px;
+border-radius:10px;
+width:150px;
+height:30px;
+}
+.pay:hover
+{
+background-color:lightblue;
+}
+.payment
+{
+border-style:solid;
+border-width:1px;
+width:400px;
+margin:0 450px 0 450px;
+padding:10px 50px;
+}
+.sort
+{
+float:right;
+font-size:17px;
+}
+
+.gridview
+{
+margin-bottom:10px ;
+margin-top:40px;
+margin-left:180px;
+text-align:center;
+font-size:19px;
+}
+.divlink
+{
+text-align:center;
+}
+.link
+{
+font-size:17px;
+text-decoration:none;
+color:blue;
+}
+
+.link:hover,.line:active
+{
+color:red;
+text-decoration:underline;
+}
+.gridbutton
+{
+background-color:grey;
+color:white;
+border-radius:10px;
+}
+.gridbutton:hover{
+background-color:lightblue;
+color:black;
+}
+.button
+{
+background-color:skyblue;
+	width:120px;
+	height:30px;	
+	border-radius:10px;
+	margin:0px 0px 12px 530px; 
+	font-size:15px;
+	color:black;
+}
+.button:hover
+{
+background-color:lightblue;
+
+border-color:skyblue;
+
+}
+.label
+{
+float:center;
+margin:0px 0 0px 610px;
+padding:0;
+color:maroon;
+font-size:17px;
+}
+.feedbacktable
+{
+margin:10px 530px;
+}
+.feedbackbutton
+{
+background-color:skyblue;
+
+}
+.feedbackbutton:hover
+{
+background-color:lightblue;
+}
+.cart
+{
+margin:10px 30px 10px 400px;
+font-size:17px;
+text-align:center;
+}
+.mymenu
+{
+
+background-color:skyblue;
+	width:120px;
+	
+	
+	height:30px;	
+	border-radius:10px;
+	margin:20px 0px 12px 610px; 
+	font-size:15px;
+	color:black;
+}
+.mymenu:hover
+{
+background-color:lightblue;
+
+}
+.billgridview
+{
+margin:30px 470px 5px 470px;
+font-size:17px;
+text-align:center;
+}
+.downlink
+{
+margin:0 620px 0 620px;
+}
+.downlink:hover
+{
+color:red;
+}
+.donebutton
+{
+background-color:skyblue;
+	width:120px;
+	height:30px;
+	
+	border-radius:10px;
+	margin:0px 0 60px;	
+	font-size:15px;
+	color:black;
+}
+.donebutton:hover
+{
+background-color:lightblue;
+
+}
+body 
+{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 350px 0 350px;
+    overflow: hidden;
+   background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:19px;
+}
+
+li a:hover:not(.active) {
+    background-color:lightgrey;
+color:black;
+}
+
+li a:active {
+    background-color: skyblue;
+}
+
+

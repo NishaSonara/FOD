@@ -1,0 +1,128 @@
+h1
+{
+text-align:center;
+font-family:'Monotype Corsiva';
+font-size:300%;
+}
+.who{
+width:250px;
+float:left;
+overflow:hidden;
+margin-right:150px;
+float:left;
+margin-left:180px;
+font-size:18px;
+}
+.whohead
+{
+font-size:25px;
+width:250px;
+}
+.vision
+{
+overflow:hidden;
+width:300px;
+float:left;
+margin-left:0px;
+font-size:18px;
+}
+.visionhead
+{
+font-size:25px;
+width:300px;
+
+}
+.promise
+{
+width:350px;
+float:left;
+font-size:18px;
+margin-left:100px;
+}
+.promisehead
+{
+font-size:25px;
+width:350px;
+}
+.customer
+{
+width:320px;
+float:left;
+margin-left:100px;
+font-size:18px;
+}
+.custhead
+{
+font-size:25px;
+width:300px;
+
+}
+.ad
+{
+width:300px;
+margin-left:180px;
+margin-right:10px;
+float:left;
+font-size:18px;
+}
+.adhead
+{
+width:300px;
+font-size:25px;
+}
+.ed
+{
+width:350px;
+float:left;
+margin-left:50px;
+font-size:18px;
+font-size:18px;
+}
+.edhead
+{
+width:350px;
+font-size:25px;
+}
+
+body 
+{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 350px 0 350px;
+    overflow: hidden;
+   background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:19px;
+}
+
+li a:hover:not(.active) {
+    background-color:lightgrey;
+color:black;
+}
+
+li a:active {
+    background-color: skyblue;
+}

@@ -1,0 +1,94 @@
+h2
+{
+border-style:dotted;
+border-left-style:hidden;
+border-right-style:hidden;
+text-align:center;
+border-width:0.01px;
+font-size:20px;
+width:100%;
+}
+
+.gridview
+{
+margin-bottom:10px ;
+margin-top:40px;
+margin-left:500px;
+}
+.divlink
+{
+text-align:center;
+}
+.link
+{
+font-size:17px;
+text-decoration:none;
+color:blueviolet;
+}
+.link:hover,.line:active
+{
+color:red;
+text-decoration:underline;
+
+}
+.button
+{
+background-color:skyblue;
+	width:120px;
+	height:30px;
+	border:0;
+	border-radius:10px;
+	margin:2px 140px 2px 550px; 
+	font-size:15px;
+	color:black;
+}
+.button:hover
+{
+background-color:greenyellow;
+color:black;
+}
+
+body 
+{
+margin:0;
+background-image:url("/image/background-wall.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 350px;
+    overflow: hidden;
+   background-color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:19px;
+}
+
+li a:hover:not(.active) {
+    background-color:lightgrey;
+color:black;
+}
+
+li a:active {
+    background-color: skyblue;
+}
+
+
